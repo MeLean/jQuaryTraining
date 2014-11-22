@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Table Generator</title>
+    <script src="scripts/jquery-2.1.1.min.js"></script>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        table, th,td {
+            border: 1px solid black;
+        }
+
+        .olive {
+            background-color: olive;
+        }
+    </style>
+</head>
+<body>
+    <script src="scripts/_03_TableGenerator.js"></script>
+    <textarea rows="3" cols="100" class="forHide" id="area" placeholder="Paste the JSON here!">[{"manufacturer":"BMW","model":"E92 320i","year":2011,"price":50000,"class":"Family"},
+{"manufacturer":"Porsche","model":"Panamera","year":2012,"price":100000,"class":"Sport"},
+{"manufacturer":"Peugeot","model":"305","year":1978,"price":1000,"class":"Family"}]
+    </textarea><br class ="forHide" />
+    <button class="forHide" id="MakeTableButton">Make Table</button>
+</body>
+</html>

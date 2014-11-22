@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Slideshow</title>
+    <script src="scripts/jquery-2.1.1.min.js"></script>
+    <style>
+        #slideOne {
+            width: 640px;
+            height: 250px;
+            background-image: url('images/jQuerySlideOne.jpg');
+            float: left;
+        }
+
+        #slideTwo {
+            width: 640px;
+            height: 250px;
+            background-image: url('images/jQuerySlideTwo.jpg');
+            float: left;
+        }
+
+        #slideThree {
+            width: 640px;
+            height: 250px;
+            background-image: url('images/jQuerySlideThree.jpg');
+            float: left;
+        }
+
+        #leftButton {
+            border: none;
+            width: 50px;
+            height: 50px;
+            background:url(images/leftButton.png) no-repeat;
+            cursor:pointer;
+            position: fixed;
+            top: 120px;
+            left: 20px;
+        }
+
+        #rightButton {
+            border: none;
+            width: 50px;
+            height: 50px;
+            background:url(images/rightButton.png) no-repeat;
+            cursor:pointer;
+            position: fixed;
+            top: 120px;
+            left: 590px;
+        }
+
+    </style>
+</head>
+    <body>
+        
+        <div id="slideShow">
+            <div id="slideHolder">
+                <div id="slideOne">
+                    <h1>FIRST Slide</h1>
+                </div>
+                <div id="slideTwo">
+                    <h1>SECOND Slide</h1>
+                </div>
+                <div id="slideThree">
+                    <h1>THIRD Slide</h1>
+                </div>
+            </div>
+            <button id="leftButton"></button>
+            <button id="rightButton"></button>
+            <script src="scripts/_04_Slideshow.js"></script>
+        </div>
+
+    </body>
+</html>

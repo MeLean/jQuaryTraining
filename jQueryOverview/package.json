@@ -1,0 +1,10 @@
+{
+  "name": "jQueryOverview",
+  "version": "0.0.0",
+  "description": "jQueryOverview",
+  "main": "jquery-2.1.1.min.js",
+  "author": {
+    "name": "Secret",
+    "email": ""
+  }
+}
