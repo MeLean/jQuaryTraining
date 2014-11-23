@@ -1,5 +1,5 @@
 ﻿$(document).ready(function () {
-    var WEITING_PERIOD = 500000000000000;
+    var WEITING_PERIOD = 5000;
     var index = -1; // it is -1 to strart from 0 element
     var slideIdArr = [ '#slideOne', '#slideTwo', '#slideThree'];
     hideAllShowIndex();
